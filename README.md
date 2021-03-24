@@ -2,11 +2,23 @@
 
 # Install
 ```bash
+# at [prj-root]/frontend
+yarn install
+# or
+npm install
+
 # at the project root
 docker-compose up --build
 
 # open anoher terminal tab and at the project root
 docker-compose exec auth-backend bash -c 'python manage.py createsuperuser'
+```
+
+For IDE,
+
+```bash
+# at the project root
+pip install -r requirements.txt
 ```
 
 # Run
